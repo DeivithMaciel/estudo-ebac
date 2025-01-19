@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <img src="https://blog.seguridade.com.br/wp-content/uploads/2017/04/como-gerenciar-tarefas-da-minha-equipe-de-forma-efetiva-810x810.jpeg.webp" alt="formulário de tarefas">
+        <h1>Formulário de tarefas</h1>
+        <button id="criar">Adicionar</button>
+    </header>
+    <form>
+        <h2>Inserir nova tarefa</h2>
+        <input id="tarefa" type="text" placeholder="tarefa" required>
+        <input id="importancia" type="text" placeholder="Importância" required>
+        <button id="inserir">Inserir</button>
+        <button id="voltar">Cancelar</button>
+    </form>
+    <div class="container">
+        <ul>
+            <li>
+                <label>
+                    <input type="checkbox" class="concluir-tarefa">
+                    <span>
+                        <h2>média</h2>
+                        <h3>Estudar programação dia ##, as ##.</h3>
+                        <button class="feito">Feito(a)</button>
+                    </span>
+                </label>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
