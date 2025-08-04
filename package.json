@@ -1,0 +1,20 @@
+{
+  "name": "exercicio_m34_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress",
+    "cy:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "mocha": "^11.7.1",
+    "mochawesome": "^7.1.3"
+  }
+}
