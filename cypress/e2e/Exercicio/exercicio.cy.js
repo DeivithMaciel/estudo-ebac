@@ -15,10 +15,10 @@ describe('Testes dos botoes', () => {
     })
 
     it('Teste do botão de deletar', () => {
-        cy.get('.contato').should('have.length', 3)
+        cy.get('.contato').should('have.length', 4)
         cy.get('.contato').first().find('button').contains('Deletar').click()
-        cy.get('.contato').should('have.length', 2)
-    })
+        cy.get('.contato').should('have.length', 3)
+    }) 
 
     it('Testando o botão editar', () => {
         cy.get('.contato').first().find('button').contains('Editar').click()
